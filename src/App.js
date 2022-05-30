@@ -42,7 +42,7 @@ useEffect(() => {
     <div className="App">
       <Header />
       <Routes>
-        <Route exact path="/"  element={<Cards handelClick={handelClick}/>} />
+        <Route exact path="/cat/"  element={<Cards handelClick={handelClick}/>} />
         <Route path="/favorite" element={<FavoriteWrapper like={like} deletLike={deletLike}/>} />
       </Routes>
     </div>

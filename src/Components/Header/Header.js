@@ -6,7 +6,7 @@ function Header() {
   return (
     <div className="header-wrapper">
       <div className="button-wrapper">
-        <NavLink className="btn" to="/" >Все котики</NavLink>
+        <NavLink className="btn" to="/cat/" >Все котики</NavLink>
         <NavLink className="btn" to="favorite" >Любимые котики</NavLink>
       </div>
     </div>

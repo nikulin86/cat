@@ -1,0 +1,23 @@
+.header-wrapper {
+    background-color: #2196f3;
+    height: 65px;
+}
+.button-wrapper {
+    margin-left: 62px;
+    display: flex;
+    height: 100%;
+    text-align: center;
+}
+.btn {
+    text-align: center;
+    padding: 25px;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.25px;
+    background-color: #2196f3;
+    color: #fff;
+    transition: 1s;
+}
+.btn:hover {
+    background-color: #1e88e5;
+}
